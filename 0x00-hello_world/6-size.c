@@ -1,18 +1,15 @@
 #include <stdio.h>
 
-/**
- * main - Start execution
- *
- * Return: Endexecution 0 is sucess
- *
+/** main - Execute print of the size of various computers
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
 	char a;
 	int b;
-	long c;
-	long d;
+	long int c;
+	long long int d;
 	float f;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
