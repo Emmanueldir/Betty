@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - Execute print of the size of various computers
  * 
  * Return: 0 (Success)
  *
  */
-
 int main(void)
 {
 	char a;
