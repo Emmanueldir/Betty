@@ -9,11 +9,11 @@ int main(void)
 {
 	char c;
 
-	c='a';
+	c = 'a';
 
 	while
 		(c <= 'z') {
-			if ((c != 'q' && c != 'e') &&c <= 'z')
+			if ((c != 'q' && c != 'e') && c <= 'z')
 				putchar(c);
 			c++;
 		}
