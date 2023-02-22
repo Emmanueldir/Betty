@@ -15,8 +15,10 @@ void times_table(void)
 		{
 			int calc = n * 1;
 
-			_putchar(calc + '0');
-			if (i <= 9)
+			_putchar(calc);
+			calc++;
+
+			if (i < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
