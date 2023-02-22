@@ -5,7 +5,7 @@
  * Return: always k
  */
 
-int print_last_digit(int)
+int print_last_digit(int i)
 {
 	int i;
 	int k;
@@ -16,5 +16,6 @@ int print_last_digit(int)
 	{
 		k = -k;
 	}
+	_putchar(k + '0');
 	return (k);
 }
