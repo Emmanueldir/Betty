@@ -3,6 +3,7 @@
 /**
  * print_last_digit - prints last digit of a value
  * Return: always k
+ * @i: parameter
  */
 
 int print_last_digit(int i)
