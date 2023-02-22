@@ -8,7 +8,7 @@
  * Return: 1 (lowercase) 0 otherwise
  */
 
-int _islower(int x)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
