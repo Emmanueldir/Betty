@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks for alphabet chacrater
  *
- * Result: 1 (success) 0 (otherwise)
+ * Return: 1 (success) 0 (otherwise)
  *
  * @c: the progm to be checked
  */
