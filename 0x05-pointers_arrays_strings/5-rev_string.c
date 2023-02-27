@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - Reserves a string 
+ * rev_string - Reserves a string
  * @s: The string to be modified
  * Return: void
  */
