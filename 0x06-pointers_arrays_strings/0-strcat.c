@@ -9,8 +9,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *dest[20] = "Hello";
-	char *src[] = "World!";
+	char *dest[];
+	char *src[];
 
 
 	*_strcat(*dest, *src);
