@@ -28,6 +28,7 @@ int main(int argc, char **argv)
 	for (i = 1; i < argc; i++)
 	{
 		int result;
+
 		result = num1 * num2;
 		printf("%d\n", result);
 	}
