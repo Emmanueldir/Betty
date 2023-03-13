@@ -19,11 +19,11 @@ int main(int argc, char **argv)
 	if (argc != 3)
 	{
 		printf("Error\n");
-		exit(1);
 	}
+	return (1);
 
 
-	for (i = 1; i == num2; i++)
+	for (i = 1; i <= argc; i++)
 	{
 		/*int x = strtol(argv[i], NULL, 10);*/
 		result = result * (num1 * num2);
