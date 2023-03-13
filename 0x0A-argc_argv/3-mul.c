@@ -12,8 +12,8 @@
 int main(int argc, char **argv)
 {
 	int i;
-	/*int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);*/
+	int num1 = atoi(argv[1]);
+	int num2 = atoi(argv[2]);
 
 	if (argc != 3)
 	{
@@ -27,11 +27,7 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		int result, num1, num2;
-		num1 = atoi(argv[1]);
-		num2 = atoi(argv[2]);
-
-		/*int x = strtol(argv[i], NULL, 10);*/
+		int result;
 		result = num1 * num2;
 		printf("%d\n", result);
 	}
