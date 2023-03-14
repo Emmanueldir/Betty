@@ -21,9 +21,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-
-	else
-	{
 		int result;
 
 		result = num1 * num2;
@@ -31,5 +28,4 @@ int main(int argc, char *argv[])
 		printf("%d\n", result);
 		return (0);
 
-	}
 }
