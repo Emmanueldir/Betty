@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 	}
+	
+	return (1);
 
 	return (1);
 
@@ -28,11 +30,18 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		int result;
+		
+		result = 1 * atoi(argv[i]);
 
+<<<<<<< HEAD
 		result = 1 * atoi(argv[i]);
 
 		/*
 		 * result = num1 * num2;
+=======
+		/*
+		 *result = num1 * num2;
+>>>>>>> 7478f35daa5c779c959d2b00163ac3c221b0dbd1
 		 */
 		printf("%d\n", result);
 	}
