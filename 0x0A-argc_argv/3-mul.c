@@ -9,7 +9,7 @@
  * Return: 0 success, 1 error
  */
 
-int main(int argc, char **argv)
+int main(int argc, char* argv[])
 {
 	int i;
 	/*
@@ -21,10 +21,8 @@ int main(int argc, char **argv)
 	{
 		printf("Error\n");
 
-		exit(-1);
-
-		return (1);
 	}
+	return (1);
 
 
 	for (i = 1; i < argc; i++)
