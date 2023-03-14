@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	{
 		printf("Error\n");
 
-		exit(1);
+		exit(-1);
 
 		return (1);
 	}
@@ -30,6 +30,7 @@ int main(int argc, char **argv)
 	for (i = 1; i < argc; i++)
 	{
 		int result;
+		
 		result = 1 * atoi(argv[i]);
 
 		/*result = num1 * num2;*/
