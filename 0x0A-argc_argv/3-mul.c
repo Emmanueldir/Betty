@@ -9,7 +9,7 @@
  * Return: 0 success, 1 error
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char **argv[])
 {
 	int i;
 	/*
@@ -20,8 +20,8 @@ int main(int argc, char* argv[])
 	if (argc != 3)
 	{
 		printf("Error\n");
-
 	}
+	
 	return (1);
 
 
@@ -31,7 +31,9 @@ int main(int argc, char* argv[])
 		
 		result = 1 * atoi(argv[i]);
 
-		/*result = num1 * num2;*/
+		/*
+		 *result = num1 * num2;
+		 */
 		printf("%d\n", result);
 	}
 	return (0);
