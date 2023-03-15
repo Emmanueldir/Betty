@@ -2,6 +2,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
+/**
+ * check - checks if there are digit in the string
+ * @str: string
+ * return: 0
+ */
+
+int check(char *str)
+{
+	unsigned int i = 0;
+
+	for(i = 0; i < strlen(str); i++)
+	{
+		if (!isdigit(str[i]))
+			return (0);
+	}
+	return (1);
+}
 
 /**
  * main - add positive numbers
@@ -22,7 +40,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (!(isdigit(atoi(argv[i]))))
+		if (check(argv[i]))
 		{
 			sum += atoi(argv[i]);
 		}
