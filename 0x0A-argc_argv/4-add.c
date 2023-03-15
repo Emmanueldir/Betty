@@ -6,14 +6,14 @@
 /**
  * check - checks if there are digit in the string
  * @str: string
- * return: 0
+ * Return: 0
  */
 
 int check(char *str)
 {
 	unsigned int i = 0;
 
-	for(i = 0; i < strlen(str); i++)
+	for (i = 0; i < strlen(str); i++)
 	{
 		if (!isdigit(str[i]))
 			return (0);
