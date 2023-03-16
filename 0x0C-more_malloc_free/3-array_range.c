@@ -5,7 +5,7 @@
  * array_range - function that creates 2 array
  * @min: minimum value contianed in an array
  * @max: maximum value contained in an array
- * Return: idk
+ * Return: integer value
  */
 
 int *array_range(int min, int max)
@@ -15,7 +15,7 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 
-	a = malloc((sizeof(int) * (max - min)) + sizeof(int))
+	a = malloc((sizeof(int) * (max - min)) + sizeof(int));
 
 	if (a == NULL)
 		return (NULL);
