@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	_putchar("%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
