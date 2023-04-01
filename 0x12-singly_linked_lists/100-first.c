@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * printJ - prints a sentence
+ * printt - prints a sentence
  * Returns: nothing
  */
 
-void printJ(void)
+void printt(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
