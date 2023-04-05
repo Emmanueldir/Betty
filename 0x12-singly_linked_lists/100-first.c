@@ -1,6 +1,8 @@
 #include "lists.h"
 #include <stdio.h>
 
+void __attribute__((constructor)) printt(void);
+
 /**
  * printt - prints a sentence
  * Returns: nothing
